@@ -1,0 +1,146 @@
+body{
+  color: black;
+  margin: 0px;
+  margin-top: 50px;
+}
+
+.container{
+  width: 800px;
+  margin: auto;
+  background-color: none;
+  margin-bottom: 5px;
+  height:auto;
+  overflow: hidden;
+  /*insert divs to inherit heigh from them*/
+}
+
+.main{
+  float: left;
+  width: 50%;
+  background-color: none;
+
+
+}
+
+.main img{
+  vertical-align: middle;
+  margin-top: 50px;
+}
+
+.aside{
+  float: right;
+  width: 50%;
+  background-color: none;
+  align-content: center;
+
+}
+
+
+p{
+  color: grey;
+  font-family:sans-serif;
+}
+#button{
+  color: white;
+  width: 100%;
+  background-color: blue;
+  border-color: blue;
+  border-radius: 5px;
+    height: 25px;
+}
+#button2{
+  color: white;
+  width: 100%;
+  background-color: blue;
+  border-color: blue;
+  border-radius: 5px;
+    height: 25px;
+    margin-top: 10px;
+}
+#entry{
+  width: 100%;
+  margin-bottom: 5px;
+  height: 25px;
+  color: grey;
+
+  border-radius: 5px;
+  border-width:thin;
+  padding-left: 5px;
+}
+
+.part1{
+  border-style: solid;
+  border-color: grey;
+  border-width: thin;
+  align-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.part2{
+  margin-top: 15px;
+  border-style: solid;
+  border-color: grey;
+  border-width: thin;
+  align-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.part3{
+  margin-top: 15px;
+  align-content: center;
+  text-align: center;
+  padding: 0px;
+  vertical-align: middle;
+}
+
+.part1 img{
+  width: 70%;
+  overflow: auto;
+  align-content: center;
+  align-self: center;
+
+}
+.part3 img{
+  width: 30%;
+  overflow: auto;
+  align-content: center;
+  align-self: center;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+p{
+  padding: 5px;
+}
+
+
+
+nav{
+  background-color: orange;
+  margin-top: 0px;
+  overflow: auto;
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+
+
+
+footer{
+  background-color: none;
+  margin-top: 0px;
+  overflow: auto;
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+h1{
+  color: white;
+  font-style: oblique;
+  text-decoration: underline;
+  font-weight: bold;
+}
